@@ -10,9 +10,12 @@ public abstract class Bus {
         this.route = route;
     }
 
-    public void stopBus(){}
+    public String stopBus(){
+        return passenger.goInOutBus();
+    }
 
     public String currentStop() {
         return route.nextStop();
     }
+
 }

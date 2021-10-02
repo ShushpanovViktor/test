@@ -38,14 +38,11 @@ public class Main {
 
         //System.out.println(lambo.checkBeep());
         //System.out.println(lambo.checkSpeed());
-
-
-        System.out.println(passengerIN.goInOutBus());
-        System.out.println(passengerOUT.goInOutBus());
-        System.out.println(route13.nextStop());
-        System.out.println(passengerIN.goInOutBus());
-        System.out.println(passengerOUT.goInOutBus());
-        System.out.println(route17.nextStop());
+        System.out.println(bus13.stopBus());
+        System.out.println(bus17.stopBus());
+        System.out.println(bus13.currentStop());
+        System.out.println(bus17.currentStop());
+        bus13.crash();
     }
 
 }
